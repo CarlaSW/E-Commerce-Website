@@ -1,0 +1,11 @@
+.page {
+  margin-top: 0px;
+}
+.searchPage {
+  padding-top: 120px;
+}
+.productsGrid {
+  padding-top: 180px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
