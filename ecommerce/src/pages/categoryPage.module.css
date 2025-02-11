@@ -1,0 +1,49 @@
+.pageGrid {
+  display: flex;
+  flex-direction: row;
+  padding-top: 200px;
+}
+.sideBar {
+  flex: 1;
+}
+.subCategoriesContainer {
+  flex: 3;
+  color: black;
+}
+.sideBarConatiner {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  background-color: rgb(233, 233, 233);
+  top: 115px;
+  bottom: 0;
+  width: 250px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+.categoryButtons {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  color: rgb(0, 65, 130);
+  margin: 10px;
+  background-color: white;
+  border: none;
+  height: 45px;
+  width: 180px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.categoryButtons:hover {
+  opacity: 0.7;
+}
+.categoryButtons:active {
+  opacity: 0.5;
+}
+.productsGrid {
+  margin-left: 300px;
+  margin-top: -80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
