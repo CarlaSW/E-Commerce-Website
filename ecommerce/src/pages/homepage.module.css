@@ -1,0 +1,12 @@
+.pageBackground1 {
+  background-color: white; /* Example color for page 1 */
+}
+.categoriesContainer {
+  padding-top: 150px;
+}
+.bars {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
