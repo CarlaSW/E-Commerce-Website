@@ -1,0 +1,43 @@
+body {
+  margin: 0; /* Remove default margin */
+}
+.brandsTitle {
+  color: #004182;
+  margin-top: -10px;
+  margin-bottom: 40px;
+}
+.brandsBar {
+  width: max-content;
+  height: max-content;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+}
+.brandsContainer {
+  margin-top: -20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-self: center;
+  gap: 20px;
+}
+.brandContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.brandImage {
+  height: 200px;
+  width: 200px;
+  border-radius: 500px;
+  border: 1px #004182 solid;
+  box-shadow: 0px 2px 4px rgba(0, 65, 130, 1);
+}
+.brandName {
+  color: rgb(0, 65, 130);
+  font-weight: bold;
+  font-size: 20px;
+}
