@@ -1,0 +1,90 @@
+.pageBackground1 {
+  background-color: #004182;
+  margin: 0 auto;
+  height: 1000px;
+}
+
+.wholePage {
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.imageContainer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  width: 650px;
+}
+
+.form {
+  width: 550px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white; /* Corrected the border */
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+  background-color: #004182; /* Optional: adds background color to the form */
+}
+
+.fullName,
+.mobileNumber,
+.email,
+.password {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center; /* Ensures label and input are vertically aligned */
+  justify-content: flex-start; /* Aligns the labels to the left */
+  width: 100%;
+}
+
+.label {
+  font-size: 25px;
+  margin-right: 30px;
+  width: 170px; /* Ensures consistent width for labels */
+  text-align: left;
+}
+
+.input {
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 300px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.password {
+  position: relative;
+}
+.showPasswordButton {
+  position: absolute;
+  left: 467px;
+  height: 42px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.showPassword {
+  width: 30px;
+}
+.signUpButton {
+  background-color: white;
+  color: #004182;
+  border: none;
+  width: 310px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 25px;
+  cursor: pointer;
+}
