@@ -1,0 +1,118 @@
+.page {
+  margin-top: 0px;
+}
+.wishlistPage {
+  padding-top: 120px;
+}
+.itemContainer {
+  margin: 40px;
+  width: 800px;
+  height: max-content;
+  border: 1px rgb(0, 65, 130) solid;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+}
+.image {
+  height: 200px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.info {
+  margin-left: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.name {
+  color: rgb(0, 65, 130);
+  font-size: 25px;
+  font-weight: bold;
+}
+.price {
+  font-size: 20px;
+  color: rgb(0, 65, 130);
+  font-weight: bold;
+  margin-top: 30px;
+}
+.right {
+  margin-left: 30px;
+}
+.remove {
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  font-size: 40px;
+  border: none;
+  cursor: pointer;
+  margin-left: 180px;
+}
+.remove:hover {
+  opacity: 0.7;
+}
+.remove:active {
+  opacity: 0.3;
+}
+.addToCartButton {
+  background-color: rgb(0, 65, 130);
+  font-size: 20px;
+  width: 200px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  position: relative;
+}
+.addToCartButton:hover {
+  opacity: 0.7;
+}
+.addToCartButton:active {
+  opacity: 0.3;
+}
+.logInAgain {
+  font-size: 20px;
+  margin-left: 60px;
+}
+.addedToCart {
+  background-color: white;
+  color: #004182;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px solid;
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: absolute;
+  top: -20px;
+  left: 160px;
+  width: max-content;
+}
+.emptyWishlist {
+  margin-left: 60px;
+  font-size: 50px;
+  color: rgb(0, 65, 130);
+}
+.navigateButton {
+  background-color: rgb(0, 65, 130);
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  height: 45px;
+  width: 200px;
+  margin-right: 20px;
+  margin-top: 70px;
+  margin-left: 200px;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.navigateButton:hover {
+  opacity: 0.7;
+}
+.navigateButton:active {
+  opacity: 0.5;
+}
