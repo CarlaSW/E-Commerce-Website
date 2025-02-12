@@ -54,7 +54,6 @@ export default function Signin() {
       console.log("You are logged in successfully !!!");
       console.log(data);
       setUserData({ email: data.user.email, username: data.user.name });
-      //console.log(data.token);
       setIsLoading(false);
       navigate("/homepage");
     } catch (error) {
